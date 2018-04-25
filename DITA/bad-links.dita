@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "technicalContent/dtd/concept.dtd">
+
+<concept id="bad-links" xml:lang="en-us">
+  <title>Bad Links</title>
+
+  <conbody>
+    <section><title>Some bad links</title>
+      <p>No href at all: <xref>bad link</xref></p>
+      <p>Link with URI a scheme: <xref href="http://www.google.com" scope="external">some link</xref></p>
+      <p>Link with URI an authority: <xref href="//www.google.com/foo" scope="external">some link</xref></p>
+      <p>Bad topic ID in current file: <xref href="#some-topic">some link</xref></p>
+      <p>Bad element ID in current file: <xref href="#bad-links/foo">some link</xref></p>
+      <p>A wrong topic id in the fragment of the href: <xref href="topics_intro.dita#BAD-TOPIC-ID/what-is-a-topic">bad link</xref></p>
+      <p>A wrong element id in the fragment of the href: <xref href="topics_intro.dita#concept_tlv_jzk_3s/BAD-ELEMENT-ID">bad link</xref></p>
+    </section>
+  </conbody>
+</concept>

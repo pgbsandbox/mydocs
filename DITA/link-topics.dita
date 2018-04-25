@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_i5l_fkq_yt">
+    <title>Link from one topic to another</title>
+    <shortdesc>Links are very distracting to readers. The key is to insert a link only when
+        absolutely required to keep them to a minimum. Then readers will know that it is not just
+        tangentially relevant information but really important information.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_cj4_ptq_yt">Both topics should be located on a file server or CMS before
+            you can create a link between them. It is possible to link between topics that are not
+            on a file server or CMS but it is not recommended.</prereq>
+        <context>
+            <p>A link from one topic to another lets you connect information from one topic to
+                another. This, in turns, lets a reader find associated information without
+                overloading any one particular topic with too much information.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the topic you want to create a link to.</cmd>
+                <info>This is the target topic. </info>
+            </step>
+            <step id="step_fqz_2tq_yt">
+                <cmd>Right-click on the content you want to link to. </cmd>
+            </step>
+            <step id="step_vbx_3tq_yt">
+                <cmd>Select <uicontrol>Choose Link Target</uicontrol> and then select the content you
+                    want to link to.</cmd>
+                <info>Usually, you link to a section, step, or paragraph. If you want to link to the
+                    entire topic, select the topic type (task, concept, or reference).</info>
+            </step>
+            <step id="step_wc3_xxf_25">
+                <cmd>Save this topic.</cmd>
+            </step>
+            <step id="step_aq1_c5q_yt">
+                <cmd>Following the prompts, press <tt>CTRL + C</tt> to copy the link
+                    information.</cmd>
+            </step>
+            <step id="step_k1q_d5q_yt">
+                <cmd>Open the topic in which you want to place the link.</cmd>
+                <info>This is the source topic. It contains the clickable link.</info>
+            </step>
+            <step id="step_hqj_dxf_25">
+                <cmd>Put cursor where you want to create link.</cmd>
+            </step>
+            <step id="step_kxx_dxf_25">
+                <cmd>Type some appropriate text for the link and select this text.</cmd>
+            </step>
+            <step id="step_phj_k5q_yt">
+                <cmd>Press <tt>CTRL + V</tt> to paste your link. </cmd>
+            </step>
+        </steps>
+        <result id="result_fmw_yyq_yt">When the content is published, the link text automatically
+            changes to the title of the topic or section that you are linking to.</result>
+    </taskbody>
+</task>

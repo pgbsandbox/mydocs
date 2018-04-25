@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ID-tkqetg" xml:lang="en-us">
+  <title>Add Review Comments</title>
+  <shortdesc>A reviewer can add comments to the topic. The comments will not appear in the published output.</shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Place your cursor in the text to which the comment will apply. </cmd>
+        <stepresult>A comment field is displayed in the right margin</stepresult>
+      </step>
+      <step>
+        <cmd>Type your comment in the gray area</cmd>
+        <choices>
+          <choice>Choose Save to add your comment, or </choice>
+          <choice>Choose Cancel to discard it</choice>
+        </choices>
+      </step>
+      <step>
+        <cmd>To edit  or delete a comment, choose the appropriate option from the sidebar (hamburger) menu</cmd>
+      </step>
+      <step>
+        <cmd>To reply to a comment, click in the text area of the comment and type your reply in the gray area. </cmd>
+        <choices>
+          <choice>Choose Reply to add your comment</choice>
+          <choice>Choose Cancel to discard it. </choice>
+        </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>
