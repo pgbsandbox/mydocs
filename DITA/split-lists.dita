@@ -23,7 +23,7 @@
             <step id="step_tln_4xs_xt">
                 <cmd>Press <tt>Up arrow</tt> to move into the empty list item.</cmd>
             </step>
-            <step id="step_tln_4xs_xt">
+            <step id="step_tln_4xs_xt2">
                 <cmd>Press <tt>Enter</tt> again.</cmd>
             </step>
         </steps>
